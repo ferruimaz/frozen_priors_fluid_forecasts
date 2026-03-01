@@ -1,0 +1,37 @@
+name: predictive_flows
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - huggingface
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+
+  # Hugging Face ecosystem
+  - transformers>=4.20.0
+  - datasets
+  - tokenizers
+  - accelerate
+  - safetensors
+
+  # Diffusion models (Exp C)
+  - conda-forge::diffusers
+
+  - tqdm
+  - jupyter
+  - notebook
+  - pillow
+
+  # Pip-only dependencies
+  - pip
+  - pip:
+    - torch>=2.6.0
+    - torchvision>=0.21.0
+
+    # Normalizing flows (Exp A / TOY.ipynb)
+    - normflows
