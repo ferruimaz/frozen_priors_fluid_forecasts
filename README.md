@@ -1,6 +1,6 @@
 # Frozen Priors, Fluid Forecasts
 
-Code for the paper **"Frozen Priors, Fluid Forecasts"**, accepted at ICLR 2026.
+Code for the paper [“Frozen Priors, Fluid Forecasts”](https://openreview.net/forum?id=3FCHmUPmhe&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions), accepted at ICLR 2026.
 
 ## Setup
 
